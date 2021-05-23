@@ -1,2 +1,2 @@
 # api-fuel-service
-Spring Boot based service which emits event which is consumed by fuel calculator service. It emits events every 2 minutes. It also exposes api to produce an on-demand event.
+Spring Boot based api used for constantly emitting events.Events are emitted once in every 2 minutes unless there is any update. Api also exposes an endpoint to push events instantly (on-demand event).
